@@ -1,4 +1,4 @@
-<template id="tpl_Progress">
+<template>
     <div class="y-progress" v-bind:style="{'background-color':tip[0].fillStyle || '#ccc'}">
         <el-tooltip v-bind:content="tip[0].text.replace('X',total<done?0:(total-done))" placement="top">
             <p class="y-progress_text" v-bind:style="{'width':(100-donePercent)+'%'}"></p>
@@ -33,7 +33,6 @@
     
     export default {
         name:"yf-progress",
-        template: "#tpl_Progress",
         props: {
             "total": {
                 type: Number,
@@ -79,7 +78,7 @@
         }
     });
 </script>
-<style>
+<style scoped>
 .y-progress {
     position: relative;
     width: 100%;
