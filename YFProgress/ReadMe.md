@@ -1,4 +1,4 @@
-# Vue-YFPrgress 二级嵌套进度条组件
+# Vue-YFProgress 二级嵌套进度条组件
 
 
 #### 属性
