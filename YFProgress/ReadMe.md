@@ -1,5 +1,8 @@
 # Vue-YFProgress 二级嵌套进度条组件
 
+#### 依赖
+
+ElementUI
 
 #### 属性
 
