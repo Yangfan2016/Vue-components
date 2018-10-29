@@ -76,7 +76,7 @@
             var tpl = document.getElementById("tpl_Progress");
             tpl && ((tpl.remove) ? (tpl.remove()) : (tpl.parentNode && tpl.parentNode.removeChild(tpl)));
         }
-    });
+    };
 </script>
 <style scoped>
 .y-progress {
